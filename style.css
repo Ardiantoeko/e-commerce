@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pinky: #e5345b;
+  --lg-font: "Kaisei Tokumin", serif;
+  --sm-font: "Poppins", sans-serif;
+}
+
+.index-page {
+  font-family: var(--sm-font);
+}
+
+/* navbar */
+.nav-item .nav-link:hover {
+  color: var(--pinky);
+}
+
+/* icon badge */
+.icon-badge {
+  left: 24px !important;
+  top: -20px !important;
+  color: #fff;
+  background-color: var(--pinky);
+}
+
+/* carousel */
+.carousel-item {
+  height: 670px;
+}
+
+.carousel-inner img {
+  height: -120px;
+}
+
+.carousel-inner .lead {
+  margin-top: -340px;
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.carousel-inner .display-4 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: var(--lg-font);
+}
+
+.carousel-inner .btn {
+  border-radius: 25px;
+}
+
+.title h4::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  left: 2%;
+  /* bottom: 0; */
+  top: -18%;
+  display: block;
+  transform: translate(-50%) !important;
+  background-color: var(--pinky);
+}
+
+/* collection */
+.active-filter-btn {
+  background-color: var(--pinky) !important;
+  color: #fff !important;
+}
+
+.btn-collection {
+  border-radius: 25px !important;
+}
+
+.btn.btn-white:hover {
+  background-color: var(--pinky);
+  color: white;
+}
+
+/* sale */
+.card span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 15px;
+  right: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.dollar-harga {
+  font-weight: bold;
+}
+
+.rating {
+  color: var(--pinky);
+}
+
+/* specials product */
+.card-love span {
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+}
+
+.text-heart {
+  color: var(--pinky) !important;
+}
+
+.special-img {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.btn-special {
+  border-radius: 25px !important;
+}
+
+.btn.btn-outline-default:hover {
+  background-color: var(--pinky);
+  color: white;
+  border: none;
+}
+
+/* blogs offers */
+/* jumbotron */
+.jumbotron {
+  background-image: url(images/offer.jpg);
+  background-size: cover;
+  min-height: 580px;
+  background-repeat: no-repeat;
+}
+
+.jumbotron .display-4 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: var(--lg-font);
+}
+
+.jumbotron .lead {
+  font-size: 20px;
+  margin-top: 170px;
+}
+
+/* newsletter */
+.newsletter {
+  background-color: rgba(179, 179, 179, 0.05);
+}
+
+.newsletter .form-control {
+  border-top-left-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+}
+
+.newsletter .btn {
+  background-color: var(--pinky);
+  color: #fff;
+  border-color: var(--pinky);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.newsletter .btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+/* footer */
+.teks-link {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.brand {
+  font-family: var(--lg-font);
+}
+
+#teks-attire:hover {
+  color: var(--pinky) !important;
+}
+
+/* icon footer  */
+.icon-footer {
+  font-size: 20px;
+}
+
+/* heart */
+.heart {
+  color: rgb(238, 71, 113);
+}
+
+footer a:hover {
+  color: var(--pinky) !important;
+}
