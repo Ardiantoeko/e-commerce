@@ -11,6 +11,9 @@
   --lg-font: "Kaisei Tokumin", serif;
   --sm-font: "Poppins", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 
 .index-page {
   font-family: var(--sm-font);
@@ -34,9 +37,9 @@
   height: 670px;
 }
 
-.carousel-inner img {
+/* .carousel-inner img {
   height: -120px;
-}
+} */
 
 .carousel-inner .lead {
   margin-top: -340px;
@@ -204,4 +207,17 @@
 
 footer a:hover {
   color: var(--pinky) !important;
+}
+
+@media (max-width: 576px) { 
+  #home {
+    margin-top: 80px;
+  }
+  .carousel-item {
+    height: auto;
+  }
+  .carousel-inner img {
+    height: 100%;
+  }
+  
 }
