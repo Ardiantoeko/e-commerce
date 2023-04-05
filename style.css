@@ -147,7 +147,7 @@ body {
 .jumbotron {
   background-image: url(images/offer.jpg);
   background-size: cover;
-  min-height: 580px;
+  height: 580px;
   background-repeat: no-repeat;
 }
 
@@ -213,9 +213,9 @@ footer a:hover {
   color: var(--pinky) !important;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #home {
-    margin-top: 80px;
+    margin-top: 73px;
   }
   .carousel-item {
     height: auto;
@@ -223,5 +223,18 @@ footer a:hover {
   .carousel-inner img {
     height: 100%;
   }
-  
+
+  .jumbotron {
+    height: 298px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 30px;
+    font-family: var(--lg-font);
+  }
+
+  .jumbotron .lead {
+    font-size: 20px;
+    margin-top: 50px;
+  }
 }
