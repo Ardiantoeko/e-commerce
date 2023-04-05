@@ -224,6 +224,15 @@ footer a:hover {
     height: 100%;
   }
 
+  .carousel-inner .lead {
+    margin-top: -194px;
+    font-size: 25px;
+  }
+
+  .carousel-inner .display-4 {
+    font-size: 35px;
+  }
+
   .jumbotron {
     height: 298px;
   }
